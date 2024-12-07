@@ -1,0 +1,11 @@
+src/
+test/
+.eslintrc.js
+.prettierrc
+tsconfig.json
+jest.config.js
+.github/
+coverage/
+.vscode/
+*.tgz
+.git*
