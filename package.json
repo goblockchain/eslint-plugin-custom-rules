@@ -1,5 +1,5 @@
 {
-  "name": "@goblock/eslint-plugin-custom-rules",
+  "name": "eslint-plugin-goblock-custom-rules",
   "version": "1.0.0",
   "description": "ESLint plugin to enforce pattern rules in Clean Architecture (goBlockchain)",
   "main": "dist/index.js",

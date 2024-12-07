@@ -1,13 +1,13 @@
-# @goblock/eslint-plugin-custom-rules
+# eslint-plugin-goblock-custom-rules
 
 ESLint plugin to enforce pattern rules in Clean Architecture. Currently enforces that `find*` operations are only defined within repository layer files.
 
 ## Installation
 
 ```bash
-npm install --save-dev @goblock/eslint-plugin-custom-rules
+npm install --save-dev eslint-plugin-goblock-custom-rules
 # or
-yarn add -D @goblock/eslint-plugin-custom-rules
+yarn add -D eslint-plugin-goblock-custom-rules
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ yarn add -D @goblock/eslint-plugin-custom-rules
 
 ```javascript
 // eslint.config.js
-import repositoryPlugin from "@goblock/eslint-plugin-custom-rules";
+import repositoryPlugin from "eslint-plugin-goblock-custom-rules";
 
 export default [
   {
@@ -36,9 +36,9 @@ export default [
 ```javascript
 // .eslintrc.js
 module.exports = {
-  plugins: ["@goblock/eslint-plugin-custom-rules"],
+  plugins: ["eslint-plugin-goblock-custom-rules"],
   rules: {
-    "@goblock/eslint-plugin-custom-rules/no-find-outside-repository": "error",
+    "eslint-plugin-goblock-custom-rules/no-find-outside-repository": "error",
   },
 };
 ```
